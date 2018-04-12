@@ -1,0 +1,474 @@
+
+html, body, div, h1, h2, h3, h4, h5, h6, a, img, ul, li, footer, header, nav, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Arimo', sans-serif;
+}
+footer, header, nav{
+    display: block;
+}
+body{
+    line-height: 1;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* End Of Default */
+
+@font-face {
+  font-family: 'Arimo';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Arimo Regular'), local('Arimo-Regular'), url(https://fonts.gstatic.com/s/arimo/v11/an78_18DAUCSU6a4qacRuA.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* End Of Font-face */
+.container{
+    width: 600px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 524px;
+    background-color: #272727;   
+}
+#logo > a{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    margin-top: 42px;
+    letter-spacing: 0.5px;
+    margin-left: -2px;
+}
+.navigation{
+    float: right;
+    display: block;
+    margin-top: 48px;
+    margin-right: 1px;
+}
+
+.navigation a{
+    display: block;
+    font-size: 12px;
+    color: #ffffff;
+}
+hr{
+    border-bottom: 2px solid #ffffff;    
+    width: 99%;
+    margin-top: 7px;
+}
+.banner{
+    text-align: center;
+    padding-top: 149px;
+}
+.banner h1{
+    margin: 0 0 0 0;
+    color: #ffffff;
+    font-size: 36px;
+    padding-bottom: 49px;
+    padding-right: 7px;
+}
+.banner h3{
+    padding-bottom: 20px;;
+    color: #ffffff;
+    font-size: 28px;
+    margin: 0 0 0 0;
+    font-weight: 1;
+    letter-spacing: -1.7px;
+    margin-right: 8px;
+}
+
+/* End Of Header */
+
+.top-content{
+    text-align: center;
+}
+.top-content p{
+    text-align: center;
+    line-height: 170%;
+    font-size: 18px;
+    color: #999999;
+    opacity: 0.8;
+    padding-bottom: 40px;
+    padding-top: 52px;
+    height: 75px;
+    margin-left: 22px;
+    letter-spacing: -0.1px;
+    width: 536px;
+}
+.line-left{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: -149px;
+}
+.line-right{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: -10px;
+    padding-left: 33px;
+}
+.btn-1{
+    text-align: center;
+    background-color: #34a56d;
+    font-size: 12px;
+    height: 40px;
+    width: 207px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid #34a56d;
+    border-radius: 20px 20px 20px 20px;
+    font-weight: 800;
+    margin-bottom: 89px;
+    margin-left: -10px;
+    margin-top: 16px;
+    letter-spacing: -0.5px;
+}
+.content-1{
+    height: 921px;
+}
+.mid-content{
+    margin-bottom: 92px;
+}
+.text-all h5{
+    font-size:14px;
+    text-align: left;
+    color: #272727;
+}
+.text-all p{
+    margin-top: 16px;
+    font-size: 12px;
+    color: #cccccc;
+    text-align: left;
+    line-height: 150%;
+    width: 231px;
+    height: 47px;
+}
+.box1-top{
+    display: inline-block;
+    height: 208px;
+    margin-left: 10px;
+}
+.box2-top{
+    display: inline-block;
+    height: 208px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.box2-top img{
+    margin-left: 8px;
+}
+.box3-bot{
+    display: inline-block;
+    height: 208px;
+    margin-left: 9px;
+    margin-top: 2px;  
+}
+.box3-bot img{
+    margin-right: 8px;
+}
+.box4-bot{
+    display: inline-block;
+    height: 208px;    
+    float: right;
+    margin-top: -4px;
+    margin-right: 25px;
+}
+.txt2{
+    margin-top: 53px;
+}
+.txt4{
+    margin-top: 52px;
+}
+
+/* End Of Content-1 */
+
+.sign-up{
+    margin-top:-1px;
+    width: 100%;
+    background-color: #34a56d;
+    height: 178px;
+}
+.quick1{
+    display: inline-block;
+    float: left;
+    margin-top: -3px;
+    margin-left: 25px;
+    letter-spacing: -0.3px;
+}
+.quick1 h2{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 63px;
+    padding-bottom: 12px;
+}
+.quick1 p{
+    font-size:16px;
+    color: #ffffff;
+}
+.quick2{
+    display: inline-block;
+    float: right;
+    margin-right: 27px;
+}
+.btn-2{
+    margin-top: 72px;
+    background-color: #ffffff;
+    color: #34a56d;
+    font-size: 12px;
+    font-weight: 550;
+    border: 1px solid #ffffff;
+    border-color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    height: 40px;
+    width: 137px;
+}
+
+/* End Of Sign-Up */
+
+.happy{
+    text-align: center;
+}
+.happy h4{
+    font-size: 24px;
+    color: #272727;
+    padding-top: 78px;
+    padding-bottom: 19px;
+    letter-spacing: 0.5px;
+}
+.happy p{
+    font-size: 14px;
+    line-height: 173%;
+    color: #999999;
+    opacity: 0.8;
+    padding-bottom: 32px;
+}
+.btns{
+    margin-top: -15px;
+    margin-left: 2px;
+}
+.btns li{
+    display: inline;
+}
+
+/* End Of Content-2 */
+
+footer{
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 165px;
+    margin-top: 86px;
+}
+.f-txt{
+    margin-top: 32px;
+    margin-left: 21px;
+    display: inline-block;
+    float: left;
+    text-align: left;
+}
+.first{
+    font-weight: bold;
+    font-size: 15px;
+    color: #999999;
+    opacity: 0.9;
+    
+}
+.contact{
+    font-size: 12px;
+    margin-top: 12px;
+    color: #999999;
+    opacity: 0.9;
+}
+.social{
+    padding-right: 14px;
+    margin-top: 29px;
+    display: inline-block;
+    float: right
+}
+.social li{
+    display: inline;
+}
+/* End Of Footer */
+
+/* Media Queries */
+
+@media(max-width: 768px){
+    
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 478px;
+    }
+    header #logo>a, .navigation, .banner{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #logo{
+        padding-top: 10px;
+        margin-top: -42px;
+    }
+    hr{
+        width: 12.5%;
+    }
+    .navigation{
+        margin-top: 32px;
+    }
+    .banner{
+        padding-top: 39px;
+    }
+    .banner h1{
+        padding-bottom: 34px;
+    }
+    .banner img{
+        width: 350px;
+        margin-top: 
+    }
+    /* End of Header-MEDIA */
+    
+    .top-content{
+        width: 100%;
+        text-align: center;
+    }
+    .top-content p{
+        margin-left: 0;
+        padding-top: 37px;
+        width: 100%;
+    }
+    .btn-1{
+        margin-left: 0;
+        margin-top: 66px;
+    }
+    .line-left{
+        margin-top: 72px;
+        margin-left: -111px;
+    }
+    .line-right{
+        margin-top: 72px;
+        margin-left: -10px;
+        padding-left: 0;
+    }
+    .line-left img{
+        width: 70%;
+    }
+    .line-right img{
+        width: 70%;
+    }
+    .mid-content{
+        float: none;
+        text-align: center;
+    }
+    .text-all h5{
+        text-align: center;
+    }
+    .text-all p{
+        text-align: center;
+    }
+    .box2-top{
+        float: none;
+        margin-top: 12px;
+    }
+    .bot-content{
+        float: none;
+        text-align: center;
+    }
+    .box3-bot{
+        margin-left: 0;
+        margin-top: -61px;
+    }
+    .box4-bot{
+        float: none;
+        margin-top: 8px;
+        margin-right: 0;
+    }
+    
+    /* End of Content-1-MEDIA*/
+    
+    .sign-up{
+        margin-top: 343px;
+    }
+    .quick1{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-left: 0;
+        margin-top: -36px;       
+    }
+    .quick1 h2{
+        padding-bottom: 17px;
+    }
+    .quick2{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .quick2 button{
+        margin-top: 11px;
+    }
+    
+    /* End of SignUp-Media */
+    
+    .happy{
+        text-align: center;
+    }
+    .happy h4{
+        padding-top: 50px;
+    }
+    
+    /* End of Content-2-Media */
+    
+    footer{
+        margin-top: 30px;
+    }
+    .f-txt{
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 25px;
+    }
+    .social{
+        width: 100%;
+        padding-right: 0;
+        float: none;
+        text-align: center;
+    }
+}
+@media(max-width: 360px){
+    header{
+        height: 450px;
+    }
+    hr{
+        width: 28%;
+    }
+    .banner img{
+        margin-top: 6px;
+        width: 235px;
+    }
+    .btn-1{
+        margin-top: 75px;
+    }
+    footer{
+        height: auto;
+    }
+    .line-left{
+        display: none;
+    }
+    .line-right{
+        display: none;
+    }
+}
+
